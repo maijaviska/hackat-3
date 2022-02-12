@@ -5,7 +5,7 @@ function Header() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light navbar-color">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">Navbar</Link>
+                    <a className="navbar-brand mt-2" href="/"><img src="/purrfat-logo.png" id="logo" className="img-responsive logo" alt="Purrfect Logo" /></a> 
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
