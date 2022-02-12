@@ -41,7 +41,7 @@ function Cakegallery() {
                         <div className="col-md-6 d-flex justify-content-end">
                             <div className="priceImg col-sm-8">10.00 €</div>
                             <button className="btn btn-success address-btn" id="address-button" onclick="addAddress()">Add to
-                                cart</button>
+                                Cart</button>
                         </div>
 
                     </div>
