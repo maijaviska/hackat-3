@@ -1,0 +1,22 @@
+.logo {
+    height: 150px;
+}
+
+.navbar-color {
+    background-color: #9C0F48;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+    
+.menu, .nav-link {
+    font-size: 18px;
+    color: white;
+}
+
+.foot {
+    color: white;
+    text-align: center;
+}
+
