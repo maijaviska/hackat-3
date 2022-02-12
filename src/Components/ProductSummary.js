@@ -77,7 +77,7 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">17.00 €</td>
                             <td className="align-middle h6">17.00 €</td>
-                            <td className="align-middle"><button type="button" class="btn btn-danger">Remove</button></td>
+                            <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
                         </tr>
                         <tr>
                             <th scope="row"><img src="/images/product-cake-2.jpg" alt="cake" style={imageStyle} /></th>
@@ -95,7 +95,7 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">15.00 €</td>
                             <td className="align-middle h6">15.00 €</td>
-                            <td className="align-middle"><button type="button" class="btn btn-danger">Remove</button></td>
+                            <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
                         </tr>
                         <tr>
                             <th scope="row"><img src="/images/product-cake-4.jpeg" alt="cake" style={imageStyle} /></th>
@@ -113,7 +113,7 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">5.00 €</td>
                             <td className ="align-middle h6">5.00 €</td>
-                            <td className ="align-middle"><button type="button" class="btn btn-danger">Remove</button></td>
+                            <td className ="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
                         </tr>
                         <tr> 
                         <td></td>
