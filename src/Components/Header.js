@@ -9,7 +9,7 @@ function Header() {
             <img src={logo} id="logo" className="nav-item img-responsive logo" alt="Purrfat Logo" />
                 <div className="container">
                     <div className="navbar-collapse d-flex justify-content-end" id="navbarNav">
-                            <ul className="navbar-nav me-auto">
+                            <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
                                     <Link className="nav-link menu" to="/">Home</Link>
                                 </li>
