@@ -1,6 +1,50 @@
+import { useState } from "react";
 import "./ShippingAddress.css"
 
 function ProductSummary() {
+    const [number, setNumber] = useState(0)
+
+    const countMinus =() => {
+        let newValue = number - 1
+        if (newValue < 0) {
+            newValue = 0;
+        }
+        setNumber(newValue)
+    }
+
+    const countPlus =() => {
+        let newValue = number + 1
+        setNumber(newValue)
+    }
+    const [number2, setNumber2] = useState(0)
+
+    const countMinus2 =() => {
+        let newValue = number2 - 1
+        if (newValue < 0) {
+            newValue = 0;
+        }
+        setNumber2(newValue)
+    }
+
+    const countPlus2 =() => {
+        let newValue = number2 + 1
+        setNumber2(newValue)
+    }
+    const [number3, setNumber3] = useState(0)
+
+    const countMinus3 =() => {
+        let newValue = number3 - 1
+        if (newValue < 0) {
+            newValue = 0;
+        }
+        setNumber3(newValue)
+    }
+
+    const countPlus3 =() => {
+        let newValue = number3 + 1
+        setNumber3(newValue)
+    }
+
     const imageStyle = {maxWidth: '200px', background: 'white', padding: '1px'};
     return (
         <div className="container-fluid">
@@ -23,11 +67,11 @@ function ProductSummary() {
                             <td className="align-middle">
                                 <div class="input-group mb-3">
                                     <div className="input-group-prepend">
-                                        <button className="btn btn-outline-secondary" type="button">-</button>
+                                        <button onClick={countMinus} className="btn btn-outline-secondary" type="button">-</button>
                                     </div>
-                                    <input style={{ width: "30px", borderRadius: 5 }}></input>
+                                    <input value={number} style={{ width: "30px", borderRadius: 5 }}></input>
                                     <div className="input-group-append">
-                                        <button className="btn btn-outline-secondary" type="button">+</button>
+                                        <button onClick={countPlus} className="btn btn-outline-secondary" type="button">+</button>
                                     </div>
                                 </div>
                             </td>
@@ -41,11 +85,11 @@ function ProductSummary() {
                             <td className="align-middle">
                                 <div class="input-group mb-3">
                                     <div className="input-group-prepend">
-                                        <button className="btn btn-outline-secondary" type="button">-</button>
+                                        <button onClick={countMinus2} className="btn btn-outline-secondary" type="button">-</button>
                                     </div>
-                                    <input style={{ width: "30px", borderRadius: 5 }}></input>
+                                    <input value={number2} style={{ width: "30px", borderRadius: 5 }}></input>
                                     <div className="input-group-append">
-                                        <button className="btn btn-outline-secondary" type="button">+</button>
+                                        <button onClick={countPlus2} className="btn btn-outline-secondary" type="button">+</button>
                                     </div>
                                 </div>
                             </td>
@@ -59,11 +103,11 @@ function ProductSummary() {
                             <td className="align-middle">
                                 <div class="input-group mb-3">
                                     <div className="input-group-prepend">
-                                        <button className="btn btn-outline-secondary" type="button">-</button>
+                                        <button onClick={countMinus3} className="btn btn-outline-secondary" type="button">-</button>
                                     </div>
-                                    <input style={{ width: "30px", borderRadius: 5 }}></input>
+                                    <input value={number3} style={{ width: "30px", borderRadius: 5 }}></input>
                                     <div className="input-group-append">
-                                        <button className="btn btn-outline-secondary" type="button">+</button>
+                                        <button onClick={countPlus3} className="btn btn-outline-secondary" type="button">+</button>
                                     </div>
                                 </div>
                             </td>
@@ -71,6 +115,14 @@ function ProductSummary() {
                             <td className ="align-middle h6">5.00 €</td>
                             <td className ="align-middle"><button type="button" class="btn btn-danger">Remove</button></td>
                         </tr>
+                        <tr> 
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <th class="text-blue h5">Total: <span class="text-black h2" id="cartTotal">37.00 €</span></th> 
+                        <td></td>       
+                    </tr>  
                     </tbody>
                 </table>
                 <div className="col-md-10 d-flex justify-content-end">
