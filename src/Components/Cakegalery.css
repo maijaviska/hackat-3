@@ -1,0 +1,13 @@
+.address-btn {
+    background-color: #9C0F48;
+    border: #9C0F48;
+}
+
+.address-btn:hover {
+    background-color: #D67D3E;  
+}
+
+.priceImg {
+    color: #470D21;
+    font-size:x-large;
+}
