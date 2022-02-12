@@ -8,7 +8,7 @@ function Cart() {
     return (
         <div className="row">
             <div className="col">
-                <h1>This is Cart</h1>
+                <h2>Shopping Cart</h2>
                 <nav>
                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
                         <button className="nav-link active" id="nav-products-tab" data-bs-toggle="tab"
