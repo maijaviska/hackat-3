@@ -1,0 +1,16 @@
+.card {
+    width: 13rem;
+}
+
+.product-btn {
+    background-color: #9C0F48;
+    border: #9C0F48;
+}
+
+.product-btn:hover {
+    background-color: #D67D3E;  
+}
+
+.product-price {
+    color: #D67D3E;
+}
