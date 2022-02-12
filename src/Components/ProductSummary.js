@@ -5,7 +5,6 @@ function ProductSummary() {
     return (
         <div className="container-fluid">
             <form>
-                <h5>Shopping Cart</h5>
                 <table className="table">
                     <thead>
                         <tr>
