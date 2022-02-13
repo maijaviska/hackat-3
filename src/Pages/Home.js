@@ -1,11 +1,13 @@
 import Carousel from "../Components/Carousel";
+import CategoriesHome from "../Components/CategoriesHome";
 
 function Home() {
     return (
-        <div className="row">
-             <div className="col">
-                <Carousel />
-            </div>
+
+        <div>           
+            <Carousel />    
+            <CategoriesHome />
+            
         </div>
     )
 }

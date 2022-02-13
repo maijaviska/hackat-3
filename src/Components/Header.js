@@ -14,7 +14,7 @@ function Header() {
                                     <Link className="nav-link menu" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link menu" to="/categories">What we make</Link>
+                                    <Link className="nav-link menu" to="/categories">What we are baking</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link menu" to="/cakes">Cakes to order</Link>

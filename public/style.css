@@ -11,12 +11,24 @@ nav .navbar-nav li a{
     }
     
 .menu, .nav-link {
-    font-size: 18px;
+    font-size: 30px;
     color: white;
+    font-family: "Biscuit & Chocolat"
+}
+
+.menu:hover, .nav-link:hover {
+    background-color: #D67D3E;
+    border-radius: 5px;
 }
 
 .foot {
     color: white;
     text-align: center;
+}
+
+h1, .titles {
+    font-family: "Biscuit & Chocolat";
+    color: #9C0F48;
+
 }
 

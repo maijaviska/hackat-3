@@ -1,4 +1,5 @@
 import "./Product.css"
+import { Link } from "react-router-dom";
 
 function Product() {
     return (
@@ -8,7 +9,7 @@ function Product() {
                 <div className="card-body">
                     <h5 className="card-title">Product title</h5>
                     <p className="product-price">Product price</p>
-                    <a href="#" className="btn btn-primary product-btn">Add to cart</a>
+                    <Link to="/product-page" className="btn btn-primary product-btn">Add to cart</Link>
                 </div>
             </div>
         </div>
