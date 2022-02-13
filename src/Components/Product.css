@@ -15,3 +15,13 @@
     color: #D67D3E;
     font-weight: bold;
 }
+
+.card-title {
+    text-decoration: none;
+    color: #9C0F48; 
+    font-weight: bold;
+}
+
+.card-title:hover {
+    color: #D67D3E;;
+}

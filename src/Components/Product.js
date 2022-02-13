@@ -6,7 +6,6 @@ function Product(props) {
     const title = props.title;
     const price = props.price;
 
-
     return (
         <div className="container-fluid">
 
@@ -14,9 +13,8 @@ function Product(props) {
 
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
+                    <Link className="card-title" to="/product-page">{title}</Link>
                     <p className="product-price">{price}</p>
-                    <Link to="/product-page" className="btn btn-primary product-btn">Add to cart</Link>
                 </div>
 
             </div>
