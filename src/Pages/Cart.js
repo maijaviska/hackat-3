@@ -1,10 +1,11 @@
 import BillingAddress from "../Components/BillingAddress";
-import Cakegallery from "../Components/Cakegalery";
-import Cakeslider from "../Components/Cakeslider";
 import ProductSummary from "../Components/ProductSummary";
 import ShippingAdress from "../Components/ShippingAddress";
+import "./Cart.css"
+import "./Cart.css"
 
 function Cart() {
+
     return (
         <div className="row">
             <div className="col mb-3 mt-3">
@@ -19,15 +20,40 @@ function Cart() {
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
 
+                    {/* /// Products tab */}
+
                     <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-products-tab">
-                        <ProductSummary />
+
+                        <div className="row">
+
+                            <div className="col-11">
+                                <ProductSummary />
+                            </div>
+
+                            <div className="col-1 d-flex flex-column align-items-center mt-4">
+
+                                <div className="col remove-button-space align-items-center mt-5">
+                                    <button className="btn btn-success address-btn mt-5" id="address-button" onclick="addAddress()">Remove</button>
+                                </div>
+                                <div className="col remove-button-space align-items-center mt-5">
+                                    <button className="btn btn-success address-btn" id="address-button" onclick="addAddress()">Remove</button>
+                                </div>
+                                <div className="col remove-button-space align-items-center">
+                                    <button className="btn btn-success address-btn" id="address-button" onclick="addAddress()">Remove</button>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
 
+                    {/* /// Address tab */}
+
                     <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-address-tab">
-                        
-                        <div className="row d-flex mb-4 address-row">
-                            
-                            <div className="col justify-content-end">
+
+                        <div className="row mb-4 address-row">
+
+                            <div className="col">
                                 <div className="">
                                     <ShippingAdress />
                                 </div>
@@ -36,7 +62,7 @@ function Cart() {
                                 </div>
                             </div>
 
-                            <div className="col justify-content-end">
+                            <div className="col">
                                 <div className="">
                                     <BillingAddress />
                                 </div>
@@ -45,31 +71,35 @@ function Cart() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
+                    {/* /// Summary tab */}
                     <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-summary-tab">
                         <div className="row">
                             <div className="col-3">
-                                <div className="">
-                                    <div className="col">
-                                        <ShippingAdress />
+
+                                <div className="row d-flex flex-column">
+
+                                    <div className="col mt-5">
+                                        <h6>Shipping address</h6>
+                                        Some address after user input
                                     </div>
 
-                                    <div className="col">
-                                        <ShippingAdress />
+                                    <div className="col mt-5">
+                                        <h6>Billing address</h6>
+                                        Some address after user input
                                     </div>
 
                                 </div>
                             </div>
+
                             <div className="col-9">
                                 <ProductSummary />
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <Cakeslider />
-                <Cakegallery />
             </div>
 
         </div>
