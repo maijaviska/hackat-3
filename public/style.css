@@ -16,7 +16,7 @@ nav .navbar-nav li a{
     font-family: "Biscuit & Chocolat"
 }
 
-.menu:hover, .nav-link:hover{
+.menu:hover, .nav-link:hover {
     background-color: #D67D3E;
     border-radius: 5px;
 }
