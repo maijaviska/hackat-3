@@ -5,7 +5,7 @@ function OneCategory() {
     return (
         <div>
             <div className="row">
-                <div className="col">
+                <div className="col mt-3 mb-3">
                     <h1>Cakes to order</h1>
                 </div>
             </div>

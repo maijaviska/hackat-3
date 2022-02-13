@@ -7,8 +7,8 @@ import cup from "../Images/cupcake.jpg"
 function Categories() {
     return (
         <div className="row">
-             <div className="col">
-                <h1>What we are making</h1>                
+             <div className="col mb-3 mt-3">
+                <h1>What we are baking</h1>                
             </div>
 
         <div className="row mb-3">
