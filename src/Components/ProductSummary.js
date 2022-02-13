@@ -57,7 +57,7 @@ function ProductSummary() {
                             <th scope="col">Qty</th>
                             <th scope="col">Price</th>
                             <th scope="col">Total</th>
-                            <th scope="col"></th>
+                            {/* <th scope="col"></th> */}
                         </tr>
                     </thead>
                     <tbody>
@@ -77,7 +77,7 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">17.00 €</td>
                             <td className="align-middle h6">17.00 €</td>
-                            <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
+                            {/* <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td> */}
                         </tr>
                         <tr>
                             <th scope="row"><img src="/images/product-cake-2.jpg" alt="cake" style={imageStyle} /></th>
@@ -95,7 +95,7 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">15.00 €</td>
                             <td className="align-middle h6">15.00 €</td>
-                            <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
+                            {/* <td className="align-middle"><button type="button" class="btn btn-dark">Remove</button></td> */}
                         </tr>
                         <tr>
                             <th scope="row"><img src="/images/product-cake-4.jpeg" alt="cake" style={imageStyle} /></th>
@@ -113,13 +113,13 @@ function ProductSummary() {
                             </td>
                             <td className="align-middle">5.00 €</td>
                             <td className ="align-middle h6">5.00 €</td>
-                            <td className ="align-middle"><button type="button" class="btn btn-dark">Remove</button></td>
+                            {/* <td className ="align-middle"><button type="button" class="btn btn-dark">Remove</button></td> */}
                         </tr>
                         <tr> 
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        {/* <td></td> */}
                         <th class="text-blue h5">Total: <span class="text-black h2" id="cartTotal">37.00 €</span></th> 
                         <td></td>       
                     </tr>  
