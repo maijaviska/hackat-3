@@ -9,6 +9,7 @@ import fbimage4 from "../Images/fbnutcake4.jpeg"
 import fbimage5 from "../Images/fbnutcake5.jpeg"
 import fbimage6 from "../Images/fbnutcake6.jpeg"
 import fbimage7 from "../Images/fbnutcake7.jpeg"
+import "./Cart.css"
 
 function OneProduct() {
     return (
@@ -61,6 +62,21 @@ function OneProduct() {
                             <FancyBoxImage img={fbimage7} />
                         </div>
                     </div>
+
+                    <div className="row d-flex mt-3 ">
+
+                        <div className="col-6 text-end">
+                            <p className="one-product-price">9.99 Eur</p>
+                        </div>
+
+                        <div className="col-6 text-end">
+                            <button className="btn btn-success address-btn" id="address-button" onclick="addAddress()">Add to cart</button>
+                        </div>
+
+                    </div>
+
+
+
                 </div>
 
                 <div className="col-8">
