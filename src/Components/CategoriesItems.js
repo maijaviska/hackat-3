@@ -14,7 +14,7 @@ function CategoriesItems(props) {
 
             <div className="col-9">
                            
-                    <h5>{title}</h5>            
+                    <h5 className="titles">{title}</h5>            
                     <p>{desc}</p>            
                 
             </div>

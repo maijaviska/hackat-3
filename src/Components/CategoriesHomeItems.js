@@ -10,7 +10,7 @@ function CategoriesHomeItems(props) {
     <div>
         <img src={img} className="card-img-top photo"/>
         <div>
-            <h5>{title}</h5>
+            <h5 className="titles">{title}</h5>
             <p>{descShort}</p>
             <Link to="/categories" className="btn btn-primary product-btn">View more</Link>
         </div>

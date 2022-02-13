@@ -6,8 +6,8 @@ import ShippingAdress from "../Components/ShippingAddress";
 function Cart() {
     return (
         <div className="row">
-            <div className="col">
-                <h2>Shopping Cart</h2>
+            <div className="col mb-3 mt-3">
+                <h1 className="titles">Shopping Cart</h1>
 
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
