@@ -2,23 +2,18 @@ import "./BillingAddress.css"
 
 function BillingAddress() {
     return (
-        <div className="container">
-            <form>
-                <div class="row m-3 ">
-                    <div class="col-md-6 px-3 pameginam">
-                        <div class="form-outline">
-                            <div class="col-xxl-11 col-xl-10 col-md-10 col-sm-9">
-                                <h5 for="username">Billing address</h5><br />
-                                <textarea id="username-input" name="input-message" rows="5" cols="76"></textarea>
-                            </div>
+        <form>
+            <div className="row m-3">
+                <div className="px-3 col-for-ship-area">
+                    <div className="form-outline">
+                        <div className="parent-for-textarea">
+                            <h5 for="username">Billing address</h5><br />
+                            <textarea id="username-input" name="input-message" rows="" cols=""></textarea>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-end">
-                    <button class="btn btn-success address-btn" id="address-button" onclick="addAddress()">Add Address</button>
-                </div>
-            </form>
-        </div>
+            </div>
+        </form>
     )
 }
 
