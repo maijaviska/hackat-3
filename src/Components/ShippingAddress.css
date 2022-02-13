@@ -6,3 +6,11 @@
 .address-btn:hover {
     background-color: #D67D3E;  
 }
+
+.username-input, .parent-for-textarea, .form-outline, .col-for-ship-area{
+    width: 100%;
+}
+
+.col-for-ship-area {
+    background-color: #9C0F48;
+}
