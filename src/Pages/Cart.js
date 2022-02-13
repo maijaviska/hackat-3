@@ -2,7 +2,6 @@ import BillingAddress from "../Components/BillingAddress";
 import ProductSummary from "../Components/ProductSummary";
 import ShippingAdress from "../Components/ShippingAddress";
 import "./Cart.css"
-import "./Cart.css"
 
 function Cart() {
 
