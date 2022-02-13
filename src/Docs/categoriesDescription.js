@@ -9,7 +9,7 @@ const cakes = {
 }
 
 const macaroons = {
-    title: "Macaroons",
+    title: "Macarons",
     img: {mac},
     description: "Macaroon ice cream jujubes pie wafer lollipop gummi bears cake. Chocolate cake halvah chupa chups topping sweet roll. Jelly-o marzipan shortbread chocolate cake topping brownie lollipop chupa chups gingerbread. Liquorice powder topping powder donut cake soufflé icing muffin. Icing bonbon tootsie roll jujubes cupcake pie candy canes. Gingerbread chocolate cake lemon drops chocolate sweet chocolate dessert candy. Sweet roll cookie gingerbread candy caramels candy soufflé. Donut gummi bears jelly lemon drops icing gummies chocolate bar. Gummies toffee chocolate cake bear claw topping dragée tiramisu powder jelly-o. Cake ice cream fruitcake lollipop sesame snaps marzipan. Jelly dessert macaroon muffin lollipop gingerbread oat cake brownie. Wafer tart cotton candy sweet chocolate cake. Tiramisu caramels fruitcake carrot cake marshmallow shortbread pudding sugar plum cheesecake. Danish liquorice gingerbread wafer soufflé liquorice halvah topping topping."
 }
