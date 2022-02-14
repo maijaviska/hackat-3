@@ -27,28 +27,28 @@ function OneCategory() {
 
             <div className="row mt-4 justify-content-between">
 
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={peachcake}
                         title={product1.title}
                         price={product1.price} />
                 </div>
 
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={breadcake}
                         title={product2.title}
                         price={product2.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={nutcake}
                         title={product3.title}
                         price={product3.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={cherrycake}
                         title={product4.title}
                         price={product4.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={chocolatecake}
                         title={product5.title}
                         price={product5.price} />
@@ -56,27 +56,27 @@ function OneCategory() {
             </div>
             <div className="row mt-4 mb-4 justify-content-between">
 
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={limecake}
                         title={product6.title}
                         price={product6.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={walnutcake}
                         title={product7.title}
                         price={product7.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={redcake}
                         title={product8.title}
                         price={product8.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={strawberrycake}
                         title={product9.title}
                         price={product9.price} />
                 </div>
-                <div className="col-2">
+                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6 mt-4">
                     <Product img={raisincake}
                         title={product10.title}
                         price={product10.price} />
