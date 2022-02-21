@@ -1,0 +1,11 @@
+.hover-image {
+    width: 100%;
+}
+
+/* .hide {
+    display: none;
+} */
+
+.myDIV:hover {
+    display: block;
+}
